@@ -1,0 +1,23 @@
+.login {
+    margin-left: 12px;
+}
+
+.login input {
+    padding: 8px;
+    border: none;
+    background-color: rgb(219, 211, 211);
+}
+
+.login button {
+    margin-top: 20px;
+    width: 100px;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e72929;
+    color: white;
+    opacity: 0.8;
+    outline: none;
+    cursor: pointer;
+}

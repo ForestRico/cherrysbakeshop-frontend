@@ -1,0 +1,11 @@
+.imgMain {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.imgMain img {
+    max-width: 500px;
+    margin: 20px;
+}
+

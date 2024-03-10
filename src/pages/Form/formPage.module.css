@@ -1,0 +1,107 @@
+.submissionbox {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.33%; 
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffbbbb;
+  border-radius: 1rem;
+  list-style-type: none;
+  margin: 0.5rem;
+  padding: 20px;
+}
+
+.message textarea {
+  height: 200px;
+  width: 300px;
+}
+
+.submissionbox > div {
+  margin-bottom: 30px; 
+}
+
+.first_name {
+  margin-bottom: 30px;
+}
+
+.pickupevent {
+  margin-bottom: 30px; 
+}
+
+.submissionbox input {
+  padding: 8px;
+  border: none;
+  background-color: rgb(219, 211, 211);
+  border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1.5rem;
+    margin-top: 0.5rem;
+    flex: 0 0 33.33%;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    /* flex: 3 0; */
+    flex: 0 0 53.33%; /* Set flex-basis to one-third of the container */
+    justify-content: space-evenly;
+    border: 1px solid #ffbbbb;
+    border-radius: 1rem;
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .list li:last-child {
+    border: none;
+  }
+
+  .list li img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
+    object-fit: cover;
+  }
+  
+    .list li div {
+    padding: 0.5rem;
+  }
+  
+  .list li div:not(:first-child) {
+    flex-basis: 18%;
+  }
+
+  .food_total_price {
+    text-align: right;
+  }
+
+  .container button {
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+    width: 99%;
+  }
+  
+  .container button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
